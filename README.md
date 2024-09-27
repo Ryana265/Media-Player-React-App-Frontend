@@ -16,40 +16,49 @@ A fully-featured media player built with **React.js**, enabling users to upload,
 
 ## Getting Started 🚀
 
-To run the app locally, follow these steps:
+Follow these steps to run the app locally:
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/media-player-app.git
-cd media-player-app
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/quotes-app.git
+2. **Navigate to the project folder**:
+   ```bash
+   cd quotes-app
+3. **Install dependencies:**:
+   ```bash
+   npm install
+4. **Start the development server:**:
+   ```bash
+   npm start
+5. **Open your browser and visit http://localhost:3000 to view the app.**
+   
+## How to Use 🚀
 
-# How to Use 🚀
-
-## Upload a Video:
+### Upload a Video:
 - Click the upload button and provide a valid YouTube URL.
 - The app will automatically extract the YouTube video ID and embed the video.
 
-## Categorize Videos:
+### Categorize Videos:
 - Create categories for organizing your videos.
 - Drag and drop videos into the categories for better organization.
 
-## Watch Videos:
+### Watch Videos:
 - Go to the "All Videos" section to view the uploaded videos.
 - Click on any video to watch it directly.
 
-# Technologies Used 🛠️
+## Technologies Used 🛠️
 - **React.js**: Front-end framework for building the user interface.
 - **Axios**: For making HTTP requests to the backend API.
 - **React Router**: For navigation and routing.
 - **Bootstrap**: For responsive and easy-to-use UI components.
 
-# API Endpoints 🌐
+## API Endpoints 🌐
 This app interacts with the following APIs:
 - **Upload Video API**: Handles the uploading and management of videos.
 - **Category Management API**: Manages video categories, including adding, updating, and deleting categories.
 - **Watch History API**: Tracks user activity and played videos.
 
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
